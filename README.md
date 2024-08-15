@@ -32,7 +32,7 @@ ReStyle is an innovative application that offers personalized shopping experienc
     pip install -r requirements.txt
     
 
-## Usage
+## Usage 
 
 1. **Run the Application**:
     ```bash

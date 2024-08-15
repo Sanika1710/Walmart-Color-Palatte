@@ -201,17 +201,17 @@ def main():
         # st.image(uploaded_file, caption="Uploaded Image", use_column_width=True)
 
         # Step 2: Display a video with autoplay
-        video_file = "./animation.mp4"  # Replace with the path to your video file
+        #video_file = "./animation.mp4"  # Replace with the path to your video file
 
         # Check if the file exists
-        try:
-            with open(video_file, "rb") as video:
-                st.video(video.read())
+        #try:
+        #    with open(video_file, "rb") as video:
+        #        st.video(video.read())
             
             # Simulate the video playing duration (example: 7 seconds)
-        except FileNotFoundError:
-            st.warning("Video file not found.")
-            time.sleep(7)
+        #except FileNotFoundError:
+        #    st.warning("Video file not found.")
+        #    time.sleep(7)
 
         # Read the uploaded image
         file_bytes = np.asarray(bytearray(uploaded_file.read()), dtype=np.uint8)
